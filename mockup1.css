@@ -1,0 +1,134 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+
+.brand{
+    font-size: 20px;
+    font-weight: 900;
+    padding-top: 20px;
+    padding-left: 50px;
+    color: red;
+    display: flex;
+    padding-right: 90px;
+}
+
+li > a{
+    color: black;
+    text-decoration: none;
+    display: flex;
+
+}
+
+ul{
+    display: flex;
+    flex-direction: row;
+    padding-top:30px;
+}
+li{
+    list-style: none;
+    margin-left: 3px;
+    padding-right: 40px;
+}
+
+header{
+    display: flex;
+    align-items: center;
+    
+}
+
+form{
+    padding-right: 100px;
+    padding-left: 100px;
+}
+
+input[type=text]{
+border-style: none;
+background-color: burlywood;
+height: 25px;
+}
+
+body{
+    background-color: aliceblue;
+}
+
+li > a:hover{
+    border-bottom: 1px solid red;
+}
+
+button{
+    background-color: brown;
+}
+
+.contact{
+    display: inline-flex;
+    padding-top: 30px;
+    padding-left: 70px;
+}
+
+.moto{
+    padding-top: 10px;
+    text-transform: uppercase;
+    padding-left: 50px;
+    font-size: 40px;
+    font-weight: bolder;
+    display: flex;
+    font-weight: 900;
+}
+img{
+    width:35%;
+    height:35%;
+    float: right;
+}
+.text{
+    padding-left: 50px;
+    font-size: 16px;
+    padding-top: 15px;
+    padding-bottom: 30px;
+}
+#contact{
+    background-color: white;
+    color: green;
+    text-decoration: underline;
+    border-style: none;
+    margin-left: 10px;
+}
+.shop{
+    color: white;
+    background-color: green;
+    width: 100px;
+    height: 30px;
+    margin-left: 50px;
+}
+
+.bestseller{
+    text-transform: uppercase;
+    padding-left: 50px;
+    font-size: 20px;
+    padding-top: 50px;
+    font-weight: bolder;
+    padding-bottom: 20px;
+}
+.card{
+    height: 150px;
+    width: 20%;
+    display: inline-flex;
+    border: 1px solid black;
+    margin-left: 40px;
+    padding-top: 30px;
+    margin-top: 60px;
+}
+.price{
+    color: grey;
+}
+
+.card img{
+    width:35%;
+    height: 35%;
+}
+.img1 img{
+    float: right;
+    width: 30%;
+    height: 30%;
+    padding-right: 80px;
+}
